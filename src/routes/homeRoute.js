@@ -1,14 +1,12 @@
-import {Router} from 'express'
+import { Router } from 'express'
+import homeController from '../controllers/homeController.js';
 
 const routes = Router();
 
-routes.get('/', (request, response) => response.send("Olá mundo ! [GET]"));
-
-routes.post('/', (request, response) => response.send("Olá mundo ! [POST]"));
-
-routes.put('/', (request, response) => response.send("Olá mundo ! [PUT]"));
-
-routes.delete('/', (request, response) => response.send("Olá mundo ! [DELETE]"));
+routes.get('/', homeController.get);
+routes.post('/', homeController.post);
+routes.put('/', homeController.put);
+routes.delete('/', homeController.delete);
 
 
 export default routes;
