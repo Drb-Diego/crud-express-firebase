@@ -1,0 +1,18 @@
+{
+  "name": "crud-express-firebase",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:Drb-Diego/crud-express-firebase.git",
+  "author": "Diego Brito <diegorbrito9@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
