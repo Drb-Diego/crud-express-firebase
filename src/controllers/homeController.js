@@ -1,7 +1,11 @@
-import createPerson from "../models/createPerson.js"
+import createPerson from "../models/createPerson.js";
+import getPersons from "../models/getPersons.js";
 
 export default {
-  get: (request, response) => response.send("Olá mundo ! [GET]"),
+  get: async (request, response) =>{
+    const persons = await getPersons();
+    response.json(persons);
+  },
 
   post: (request, response) => {
 
