@@ -26,7 +26,7 @@ tecnologias como: node, firebase.
 
 ### Ajustes e melhorias
 
-Projeto concluido em desenvolvimento 👨‍💻:
+Projeto: em desenvolvimento 👨‍💻:
 
 - [x] Criar as rotas das requisições
 - [x] Criar os controllers das rotas
