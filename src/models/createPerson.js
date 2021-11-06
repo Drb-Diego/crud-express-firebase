@@ -1,6 +1,9 @@
 import { database } from '../database/startFirebase.js';
+import { v4 as uuidv4 } from 'uuid';
+
 
 export default (person) => {
-  console.log(person);
-  database.collection('users').add(person);
+  const personObject = person;
+  personObject.id = uuidv4();
+  database.collection('users').doc(personObject.id).set(person);
 }
