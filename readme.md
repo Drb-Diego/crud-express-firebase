@@ -14,9 +14,35 @@
   </div>
 </h1>
 
+## Create
 <p align="center">
-  <img src="./imagem-do-projeto.png" alt="imagem do projeto" width="1000px" heigth="800px">
+  <img src="./gifs/create.gif" alt="imagem do projeto" width="900px" heigth="500px">
 </p>
+
+#
+
+## Read
+<p align="center">
+  <img src="./gifs/read.gif" alt="imagem do projeto" width="900px" heigth="500px">
+</p>
+
+#
+
+## Update
+
+<p align="center">
+  <img src="./gifs/update.gif" alt="imagem do projeto" width="900px" heigth="500px">
+</p>
+
+#
+
+## Delete
+
+<p align="center">
+  <img src="./gifs/delete.gif" alt="imagem do projeto" width="900px" heigth="500px">
+</p>
+
+#
 
 > Link da aplicação: Ainda não foi dado deploy !
 

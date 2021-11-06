@@ -7,12 +7,14 @@ import editPerson from "../models/editPerson.js";
 export default {
   get: async (request, response) => {
     const persons = await getPersons();
+
     response.status(200).json(persons);
   },
 
-  post: (request, response) => {
-    createPerson(request.body);
-    response.status(200).send("pessoa adicionanda");
+  post: async (request, response) => {
+    const responseQuery = await createPerson(request.body);
+
+    response.status(200).send(responseQuery);
   },
 
   put: async (request, response) => {
