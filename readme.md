@@ -47,7 +47,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## 🚀 Instalando Projeto
 
-Para instalar o To-do-list, siga estas etapas:
+Para instalar o app, siga estas etapas:
 
 </br>
 
@@ -56,7 +56,7 @@ Para instalar o To-do-list, siga estas etapas:
 **Clone o repositório**
 
 ```
-  git clone https://github.com/Drb-Diego/to-do-list-react-styled-components.git
+  git clone https://github.com/Drb-Diego/crud-express-firebase.git
 ```
 
 Depois execute os seguintes comando
