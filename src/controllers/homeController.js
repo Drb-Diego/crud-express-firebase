@@ -1,5 +1,7 @@
 import createPerson from "../models/createPerson.js";
 import getPersons from "../models/getPersons.js";
+import deletePerson from "../models/deletePerson.js";
+
 
 export default {
   get: async (request, response) => {
@@ -14,5 +16,11 @@ export default {
 
   put: (request, response) => response.send("Olá mundo ! [PUT]"),
 
-  delete: (request, response) => response.send("Olá mundo ! [DELETE]"),
+  delete: async (request, response) => {
+    const {params: { id }} = request;
+
+    const responseQuery = await deletePerson(id);
+
+    response.status(200).send(responseQuery);
+  },
 };
