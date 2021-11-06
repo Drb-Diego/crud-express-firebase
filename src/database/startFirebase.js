@@ -1,18 +1,15 @@
-
 import admin from "firebase-admin";
-import { firebaseConfig } from './firebaseConfig.js'
+import { firebaseConfig } from "./firebaseConfig.js";
 
+export let database = "";
 
-export let database = '';
-
-export function startFirebase (){
-
+export function startFirebase() {
   const serviceAccount = firebaseConfig;
-  
+
   admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount)
+    credential: admin.credential.cert(serviceAccount),
   });
-  
+
   database = admin.firestore();
-  console.log('FireBase up');
+  console.log("FireBase up");
 }

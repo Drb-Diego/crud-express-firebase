@@ -9,10 +9,10 @@ export default {
 
   post: (request, response) => {
     createPerson(request.body);
-    response.status(200).send('pessoa adicionanda');
+    response.status(200).send("pessoa adicionanda");
   },
 
   put: (request, response) => response.send("Olá mundo ! [PUT]"),
 
   delete: (request, response) => response.send("Olá mundo ! [DELETE]"),
-}
+};
