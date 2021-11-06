@@ -36,7 +36,7 @@ Projeto: em desenvolvimento 👨‍💻:
 - [x] Criar funcionalidade para cadastrar usuário
 - [x] Criar funcionalidade para pegar usuários já cadastrados
 - [ ] Criar funcionalidade para editar usuários cadastrados
-- [ ] Criar funcionalidade para deletar usuários cadastrados
+- [x] Criar funcionalidade para deletar usuários cadastrados
 
 
 ## 💻 Pré-requisitos
