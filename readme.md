@@ -33,9 +33,9 @@ Projeto concluido em desenvolvimento 👨‍💻:
 - [x] Criar um banco de dados no firebase
 - [x] Integrar o firebase com a aplicação
 - [x] Criar funcionalidade para cadastrar usuário
-- [] Criar funcionalidade para pegar usuários já cadastrados
-- [] Criar funcionalidade para editar usuários cadastrados
-- [] Criar funcionalidade para deletar usuários cadastrados
+- [ ] Criar funcionalidade para pegar usuários já cadastrados
+- [ ] Criar funcionalidade para editar usuários cadastrados
+- [ ] Criar funcionalidade para deletar usuários cadastrados
 
 
 ## 💻 Pré-requisitos
