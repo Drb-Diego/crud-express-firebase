@@ -1,6 +1,7 @@
 import createPerson from "../models/createPerson.js";
 import getPersons from "../models/getPersons.js";
 import deletePerson from "../models/deletePerson.js";
+import editPerson from "../models/editPerson.js";
 
 
 export default {
@@ -14,10 +15,16 @@ export default {
     response.status(200).send("pessoa adicionanda");
   },
 
-  put: (request, response) => response.send("Olá mundo ! [PUT]"),
+  put: async (request, response) => {
+    const { id, campEdit, newValue } = request.body;
 
-  delete: async (request, response) => {
-    const {params: { id }} = request;
+    const responseQuery = await editPerson(id, campEdit, newValue);
+
+    response.status(200).send(responseQuery);
+  },
+
+  delete: async (request, response) => {  
+    const { id } = request.body;
 
     const responseQuery = await deletePerson(id);
 

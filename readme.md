@@ -35,7 +35,7 @@ Projeto: em desenvolvimento 👨‍💻:
 - [x] Integrar o firebase com a aplicação
 - [x] Criar funcionalidade para cadastrar usuário
 - [x] Criar funcionalidade para pegar usuários já cadastrados
-- [ ] Criar funcionalidade para editar usuários cadastrados
+- [x] Criar funcionalidade para editar usuários cadastrados
 - [x] Criar funcionalidade para deletar usuários cadastrados
 
 

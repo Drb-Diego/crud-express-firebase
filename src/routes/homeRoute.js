@@ -6,6 +6,6 @@ const routes = Router();
 routes.get("/", homeController.get);
 routes.post("/", homeController.post);
 routes.put("/", homeController.put);
-routes.delete("/:id", homeController.delete);
+routes.delete("/", homeController.delete);
 
 export default routes;
