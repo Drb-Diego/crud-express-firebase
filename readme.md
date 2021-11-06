@@ -43,6 +43,7 @@ Projeto: em desenvolvimento 👨‍💻:
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Ter instalado o nodeJs na versão **lts 16.13.0** ou **versões recentes**
+* Ter instaldo algum gerenciador de pacotes: **NPM** ou **yarn**
 
 ## 🚀 Instalando Projeto
 
