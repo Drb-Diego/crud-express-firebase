@@ -48,8 +48,7 @@
 
 
 ## 🖖🏼 Objetivo
-O objetivo desse projeto é criar uma api rest, com o banco de dados firestore, que é um dos seviços do firebase, com o intuito de exercitar
-tecnologias como: node, firebase.
+O objetivo desse projeto é criar uma api rest, com o banco de dados firestore, que é um dos seviços do firebase, com o intuito de exercitar tecnologias como: node, firebase.
 
 ### Ajustes e melhorias
 
