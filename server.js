@@ -4,4 +4,4 @@ const app = expressConfig();
 
 const PORT = process.env.PORT;
 
-app.listen(PORT, () => console.log(`Server up\nNa porta: ${PORT}`));
+app.listen(PORT, () => console.log(`Server up\nNa porta: ${PORT}\nLink: http://localhost:${PORT}`));
